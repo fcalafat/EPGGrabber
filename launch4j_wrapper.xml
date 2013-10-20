@@ -1,0 +1,32 @@
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\tools\workspace\EPGGrabber\target\epg-grabber-1.0.jar</jar>
+  <outfile>C:\tools\EPGGrabber\EPGGrabber.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir></chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <manifest></manifest>
+  <icon>C:\tools\workspace\EPGGrabber\IconEPG.ico</icon>
+  <singleInstance>
+    <mutexName>EPGGrabber</mutexName>
+    <windowTitle>EPGGrabber</windowTitle>
+  </singleInstance>
+  <classPath>
+    <mainClass>fr.vred.epg.EPGGrabber</mainClass>
+    <cp>libs/log4j-1.2.17.jar</cp>
+    <cp>libs/commons-lang-2.1.jar</cp>
+    <cp>libs/commons-io-2.4.jar</cp>
+  </classPath>
+  <jre>
+    <path></path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <minVersion>1.7.0</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+  </jre>
+</launch4jConfig>
